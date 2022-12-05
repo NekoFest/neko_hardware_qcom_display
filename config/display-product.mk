@@ -1,5 +1,5 @@
 ifeq ($(BOARD_DISPLAY_HAL),)
-    BOARD_DISPLAY_HAL :=  $(TARGET_HALS_PATH)/display
+    BOARD_DISPLAY_HAL := hardware/qcom/display
 endif
 
 # Display product definitions
